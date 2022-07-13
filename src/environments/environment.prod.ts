@@ -1,3 +1,7 @@
 export const environment = {
-  production: true
+  production: true,
+  host: 'https://archive.ph',
+  storageKeys: {
+    siteList: 'autoArchiverSiteList'
+  }
 };

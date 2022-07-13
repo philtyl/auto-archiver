@@ -1,0 +1,11 @@
+<form class="sitelist" [formGroup]="siteListForm" (ngSubmit)="onSubmit()">
+
+  <mat-form-field appearance="fill">
+    <mat-label>Site List</mat-label>
+    <textarea matInput rows="20" formControlName="sitelist"
+              placeholder="New line seperated list of sites that should be archived on load"
+              (blur)="onSubmit()">
+    </textarea>
+  </mat-form-field>
+  <button mat-raised-button type="submit">Save</button>
+</form>
