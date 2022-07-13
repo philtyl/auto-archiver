@@ -1,7 +1,6 @@
 // (window as any).global = window;
 
 import { environment } from './environments/environment';
-import ResourceType = chrome.declarativeNetRequest.ResourceType;
 // import { snapshot } from 'archivetoday';
 
 // const userAgent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36';
